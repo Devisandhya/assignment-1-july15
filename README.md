@@ -1,1 +1,6 @@
-# assignment-1-july15
+ASS1:                                                                                                                                                                                                                                                                                                                           class Solution:
+    def singleNumber(self, n):
+        res=0
+        for i in n:
+            res=res^i
+        return res
